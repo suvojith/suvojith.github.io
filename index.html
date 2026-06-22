@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suvojit Hore — Senior AI Engineer · EXL</title>
+    <meta name="description" content="Suvojit Hore — Senior AI Engineer at EXL. Building AI agents into production. 6.5+ years in GenAI, NLP & Computer Vision. Bengaluru & Sydney.">
+    <link rel="icon" type="image/png" href="assets/dp.png">
+    <link rel="apple-touch-icon" href="assets/dp.png">
+    <meta property="og:title" content="Suvojit Hore — Senior AI Engineer">
+    <meta property="og:description" content="Building and shipping AI agents into production. 6.5+ years in GenAI, NLP & Computer Vision.">
+    <meta property="og:image" content="assets/linkedin_banner.jpg">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Suvojit Hore — Senior AI Engineer">
+    <meta name="twitter:description" content="Building AI agents into production. 6.5+ years in GenAI, NLP & CV.">
+    <meta name="twitter:image" content="assets/linkedin_banner.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+    <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+    <!-- Particle Canvas -->
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-text">
+            <span class="loader-bracket">&lt;</span>
+            <span class="loader-name">Suvojit Hore</span>
+            <span class="loader-bracket">/&gt;</span>
+        </div>
+        <div class="loader-bar"><div class="loader-progress" id="loaderProgress"></div></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo" data-cursor="hover">
+                <span class="logo-bracket">[</span>SH<span class="logo-bracket">]</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="nav-link active" data-cursor="hover">Home</a></li>
+                <li><a href="#impact" class="nav-link" data-cursor="hover">Impact</a></li>
+                <li><a href="#about" class="nav-link" data-cursor="hover">About</a></li>
+                <li><a href="#skills" class="nav-link" data-cursor="hover">Skills</a></li>
+                <li><a href="#experience" class="nav-link" data-cursor="hover">Experience</a></li>
+                <li><a href="#projects" class="nav-link" data-cursor="hover">Projects</a></li>
+                <li><a href="#contact" class="nav-link" data-cursor="hover">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-banner"></div>
+        <div class="hero-bg-glow"></div>
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="hero-tag reveal">
+                    <span class="status-dot"></span>
+                    Senior AI Engineer @ EXL
+                </div>
+                <h1 class="hero-name reveal" style="--delay: .1s">
+                    Suvojit Hore
+                </h1>
+                <div class="hero-role reveal" style="--delay: .2s">
+                    <span class="role-prefix">$</span>
+                    <span class="role-text" id="typingText"></span>
+                    <span class="cursor-blink">_</span>
+                </div>
+                <p class="hero-desc reveal" style="--delay: .3s">
+                    I build and ship AI agents into production. Based in Bengaluru, Sydney & UAE.
+                    6.5+ years across GenAI, NLP, Computer Vision, and Deep Learning.
+                </p>
+                <div class="hero-actions reveal" style="--delay: .4s">
+                    <a href="Suvojit-Hore-Senior-AI-Engineer.pdf" download class="btn btn-primary" data-cursor="hover">
+                        <span class="btn-icon">⬇</span> Download Resume
+                    </a>
+                    <a href="https://www.linkedin.com/in/suvojith" target="_blank" rel="noopener" class="btn btn-ghost" data-cursor="hover">
+                        <span class="btn-icon">in</span> Message on LinkedIn
+                    </a>
+                </div>
+                <div class="hero-contact-row reveal" style="--delay: .45s">
+                    <a href="tel:+919804125414" class="hero-phone" data-cursor="hover">
+                        <span class="phone-icon">☎</span> +91 98041 25414
+                    </a>
+                    <a href="mailto:suvojit.hore.1@gmail.com" class="hero-phone" data-cursor="hover">
+                        <span class="phone-icon">✉</span> suvojit.hore.1@gmail.com
+                    </a>
+                </div>
+            </div>
+            <div class="hero-right reveal" style="--delay: .3s">
+                <div class="hero-photo-frame" data-tilt>
+                    <img src="assets/dp.png" alt="Suvojit Hore" class="hero-photo-img">
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll reveal" style="--delay: .5s">
+            <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Impact Metrics Section -->
+    <section class="section impact" id="impact">
+        <div class="section-header reveal">
+            <span class="section-num">01</span>
+            <h2 class="section-title">Impact in Numbers</h2>
+        </div>
+        <div class="impact-grid">
+            <div class="impact-card reveal" data-tilt style="--delay: .05s">
+                <div class="impact-icon">🤖</div>
+                <div class="impact-num"><span data-count="20">0</span>+</div>
+                <div class="impact-label">Agentic AI Projects Built & Deployed in Production</div>
+                <div class="impact-sub">Claims processing, PII masking, chatbots, compliance & more</div>
+            </div>
+            <div class="impact-card reveal" data-tilt style="--delay: .1s">
+                <div class="impact-icon">📈</div>
+                <div class="impact-num"><span data-count="315">0</span>%</div>
+                <div class="impact-label">Sales Increase — Recommendation Engine</div>
+                <div class="impact-sub">UK's largest retailer · Dunnhumby</div>
+            </div>
+            <div class="impact-card reveal" data-tilt style="--delay: .15s">
+                <div class="impact-icon">⚡</div>
+                <div class="impact-num"><span data-count="120">0</span>K+</div>
+                <div class="impact-label">Claims Processed Autonomously</div>
+                <div class="impact-sub">Agentic claims system · Claude Opus · EXL</div>
+            </div>
+            <div class="impact-card reveal" data-tilt style="--delay: .2s">
+                <div class="impact-icon">🛡️</div>
+                <div class="impact-num"><span data-count="5">0</span>M+</div>
+                <div class="impact-label">PII Data Points Masked & Secured</div>
+                <div class="impact-sub">LLM-powered deidentification tool · EXL</div>
+            </div>
+        </div>
+
+        <div class="impact-savings reveal" style="--delay: .25s">
+            <h3 class="impact-savings-title">Cost Savings Delivered Through AI Automation</h3>
+            <p class="impact-savings-sub">Across global markets — insurance, retail, banking, legal & healthcare</p>
+            <div class="savings-grid">
+                <div class="savings-card" data-tilt>
+                    <div class="savings-flag">🇦🇺</div>
+                    <div class="savings-amount">A$<span data-count="1.2">0</span>M+</div>
+                    <div class="savings-market">Australia · Insurance Claims Automation</div>
+                    <div class="savings-detail">EXL Sydney — Agentic claims processing reducing manual workload</div>
+                </div>
+                <div class="savings-card" data-tilt>
+                    <div class="savings-flag">🇬🇧</div>
+                    <div class="savings-amount">£<span data-count="800">0</span>K+</div>
+                    <div class="savings-market">United Kingdom · Retail & CPG Analytics</div>
+                    <div class="savings-detail">Dunnhumby — Recommendation engine & NL-to-SQL automation</div>
+                </div>
+                <div class="savings-card" data-tilt>
+                    <div class="savings-flag">🇪🇺</div>
+                    <div class="savings-amount">€<span data-count="600">0</span>K+</div>
+                    <div class="savings-market">Europe · Banking & Telecom Automation</div>
+                    <div class="savings-detail">Cluster analysis, chatbot automation & compliance AI</div>
+                </div>
+                <div class="savings-card" data-tilt>
+                    <div class="savings-flag">🇺🇸</div>
+                    <div class="savings-amount">$<span data-count="1.5">0</span>M+</div>
+                    <div class="savings-market">USA · Banking & Food Processing AI</div>
+                    <div class="savings-detail">Automated analytics, OCR & real-time image classification</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="impact-savings reveal" style="--delay: .3s">
+            <h3 class="impact-savings-title">Recognition & Thought Leadership</h3>
+            <p class="impact-savings-sub">Awards, publications, certifications & conference talks across the AI community</p>
+            <div class="savings-grid">
+                <div class="savings-card" data-tilt>
+                    <div class="savings-flag">🏆</div>
+                    <div class="savings-amount"><span data-count="8">0</span>+</div>
+                    <div class="savings-market">Awards & Honors</div>
+                    <div class="savings-detail">Early Trailblazer, Emerging Analyst, Hackrush Winner, GMS Star, ISI Medal</div>
+                </div>
+                <div class="savings-card" data-tilt>
+                    <div class="savings-flag">📄</div>
+                    <div class="savings-amount"><span data-count="7">0</span>+</div>
+                    <div class="savings-market">Research Publications</div>
+                    <div class="savings-detail">Lattice, Infosys, SRM — AI Twins, NL-to-SQL, RLHF, CV & more</div>
+                </div>
+                <div class="savings-card" data-tilt>
+                    <div class="savings-flag">🎓</div>
+                    <div class="savings-amount"><span data-count="15">0</span>+</div>
+                    <div class="savings-market">Professional Certifications</div>
+                    <div class="savings-detail">AWS, NVIDIA, Databricks, Microsoft Azure, Docker, IIT Madras, ISI</div>
+                </div>
+                <div class="savings-card" data-tilt>
+                    <div class="savings-flag">🎤</div>
+                    <div class="savings-amount"><span data-count="4">0</span>+</div>
+                    <div class="savings-market">Conference Talks at MLDS</div>
+                    <div class="savings-detail">Machine Learning Developers Summit 2024 & 2025 — presented AI Twins & NL-to-SQL</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="section-header reveal">
+            <span class="section-num">02</span>
+            <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-text reveal" style="--delay: .1s">
+                <p>
+                    I'm a <strong>Forward Deployed Senior AI Engineer</strong> at <strong>EXL</strong>,
+                    building and shipping AI agents into production. I currently ship productionized
+                    agentic claims-processing systems for the insurance industry that autonomously
+                    analyze incidents, make decisions, and manage memory across interactions.
+                </p>
+                <p>
+                    With <strong>6.5+ years of experience</strong> across Generative AI, NLP, Computer
+                    Vision, Deep Learning, and traditional ML, I specialize in turning LLMs and diffusion
+                    models into reliable, production-ready applications following standard DevOps practices
+                    and CI/CD pipelines. I hold a <strong>Master's in AI/ML from BITS Pilani</strong>
+                    (NLP specialization) and lead a small team of AI engineers and data scientists, owning
+                    delivery end-to-end.
+                </p>
+                <p>
+                    Previously at <strong>EY</strong>, <strong>Dunnhumby</strong>, and <strong>Infosys R&D</strong>,
+                    I've solved business problems across insurance, banking, retail, healthcare, legal, and
+                    hardware. I thrive in high-ambiguity environments where the path forward isn't yet defined.
+                </p>
+            </div>
+            <div class="about-stats reveal" style="--delay: .2s">
+                <div class="stat-card" data-tilt>
+                    <div class="stat-num" data-count="6.5">0</div>
+                    <div class="stat-plus">+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card" data-tilt>
+                    <div class="stat-num" data-count="8">0</div>
+                    <div class="stat-plus">+</div>
+                    <div class="stat-label">Industries Served</div>
+                </div>
+                <div class="stat-card" data-tilt>
+                    <div class="stat-num" data-count="4">0</div>
+                    <div class="stat-plus">+</div>
+                    <div class="stat-label">Companies Worked</div>
+                </div>
+                <div class="stat-card" data-tilt>
+                    <div class="stat-num" data-count="4">0</div>
+                    <div class="stat-plus"></div>
+                    <div class="stat-label">Global Markets</div>
+                </div>
+                <div class="stat-card" data-tilt>
+                    <div class="stat-num" data-count="12">0</div>
+                    <div class="stat-plus">K</div>
+                    <div class="stat-label">LinkedIn Followers</div>
+                </div>
+                <div class="stat-card" data-tilt>
+                    <div class="stat-num" data-count="5">0</div>
+                    <div class="stat-plus"></div>
+                    <div class="stat-label">Languages Spoken</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="section-header reveal">
+            <span class="section-num">03</span>
+            <h2 class="section-title">Technical Arsenal</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category reveal" style="--delay: .05s">
+                <h3 class="skill-cat-title"><span class="cat-icon">◆</span> AI & ML</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Large Language Models</span><span>95%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>RAG Systems</span><span>93%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="93"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Agentic AI & Autonomous Agents</span><span>94%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="94"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>NLP & NL-to-SQL</span><span>92%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Computer Vision & Diffusion Models</span><span>88%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category reveal" style="--delay: .15s">
+                <h3 class="skill-cat-title"><span class="cat-icon">▲</span> Engineering</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Python</span><span>96%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="96"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>PyTorch / Transformers</span><span>92%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Docker & Kubernetes</span><span>90%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>DevOps & CI/CD</span><span>89%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="89"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>AWS / Azure / Databricks</span><span>91%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="91"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category reveal" style="--delay: .25s">
+                <h3 class="skill-cat-title"><span class="cat-icon">●</span> Frameworks & Infra</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <div class="skill-info"><span>LangChain / LangGraph / Autogen / Crew AI</span><span>93%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="93"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Vector Databases</span><span>90%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>FastAPI / Flask / Streamlit / Gradio</span><span>91%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="91"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Model Serving (vLLM, TGI)</span><span>87%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="87"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>SQL / PySpark / Pandas</span><span>89%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="89"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tech-marquee reveal" style="--delay: .3s">
+            <div class="marquee-track">
+                <span>Python</span><span>•</span>
+                <span>PyTorch</span><span>•</span>
+                <span>Transformers</span><span>•</span>
+                <span>Hugging Face</span><span>•</span>
+                <span>LangChain</span><span>•</span>
+                <span>LangGraph</span><span>•</span>
+                <span>Autogen</span><span>•</span>
+                <span>Crew AI</span><span>•</span>
+                <span>vLLM</span><span>•</span>
+                <span>OpenAI</span><span>•</span>
+                <span>Claude</span><span>•</span>
+                <span>Gemini</span><span>•</span>
+                <span>AWS</span><span>•</span>
+                <span>Azure</span><span>•</span>
+                <span>Databricks</span><span>•</span>
+                <span>Docker</span><span>•</span>
+                <span>Kubernetes</span><span>•</span>
+                <span>FastAPI</span><span>•</span>
+                <span>Streamlit</span><span>•</span>
+                <span>Gradio</span><span>•</span>
+                <span>PySpark</span><span>•</span>
+                <span>OpenCV</span><span>•</span>
+                <span>NVIDIA</span><span>•</span>
+                <span>Redis</span><span>•</span>
+                <span>Python</span><span>•</span>
+                <span>PyTorch</span><span>•</span>
+                <span>Transformers</span><span>•</span>
+                <span>Hugging Face</span><span>•</span>
+                <span>LangChain</span><span>•</span>
+                <span>LangGraph</span><span>•</span>
+                <span>Autogen</span><span>•</span>
+                <span>Crew AI</span><span>•</span>
+                <span>vLLM</span><span>•</span>
+                <span>OpenAI</span><span>•</span>
+                <span>Claude</span><span>•</span>
+                <span>Gemini</span><span>•</span>
+                <span>AWS</span><span>•</span>
+                <span>Azure</span><span>•</span>
+                <span>Databricks</span><span>•</span>
+                <span>Docker</span><span>•</span>
+                <span>Kubernetes</span><span>•</span>
+                <span>FastAPI</span><span>•</span>
+                <span>Streamlit</span><span>•</span>
+                <span>Gradio</span><span>•</span>
+                <span>PySpark</span><span>•</span>
+                <span>OpenCV</span><span>•</span>
+                <span>NVIDIA</span><span>•</span>
+                <span>Redis</span><span>•</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="section-header reveal">
+            <span class="section-num">04</span>
+            <h2 class="section-title">Career Journey</h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-line"></div>
+            <div class="timeline-item reveal" style="--delay: .05s">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content" data-tilt>
+                    <span class="timeline-date">Aug 2024 — Present</span>
+                    <h3 class="timeline-role">Senior AI Engineer <span class="timeline-sub">Forward Deployed</span></h3>
+                    <p class="timeline-company">EXL · Sydney, Australia & Bengaluru, India</p>
+                    <p class="timeline-desc">
+                        Leading forward-deployed AI engineering for enterprise insurance clients. Engineered
+                        <strong>Agent Toolkit</strong>, a reusable agent-building framework adopted across
+                        all agentic AI initiatives. Productionized an <strong>agentic claims-processing
+                        system</strong> with Claude Opus that autonomously analyzes incidents, maintains
+                        memory, and drives end-to-end claims decisions. Built a <strong>PII deidentification
+                        tool</strong> with iterative feedback loops, a <strong>GenAI insurance chatbot</strong>
+                        (GPT-5, Mistral), and <strong>AI Twins</strong> digital avatars. Won the
+                        <strong>Early Trailblazer Award</strong> (2024) and <strong>Emerging Analyst Award</strong> (2025).
+                    </p>
+                    <div class="timeline-tags">
+                        <span>Agentic AI</span><span>Claude Opus</span><span>GPT-5</span><span>Mistral</span><span>RAG</span><span>Production AI</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item reveal" style="--delay: .1s">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content" data-tilt>
+                    <span class="timeline-date">Nov 2024</span>
+                    <h3 class="timeline-role">M.Tech · AI & Machine Learning</h3>
+                    <p class="timeline-company">BITS Pilani · Online</p>
+                    <p class="timeline-desc">
+                        Master of Technology in Artificial Intelligence and Machine Learning with
+                        <strong>specialization in Natural Language Processing</strong>. Strengthened
+                        foundations in deep learning, NLP, and production ML systems.
+                    </p>
+                    <div class="timeline-tags">
+                        <span>NLP Specialization</span><span>Deep Learning</span><span>Production ML</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item reveal" style="--delay: .15s">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content" data-tilt>
+                    <span class="timeline-date">May 2024 — Aug 2024</span>
+                    <h3 class="timeline-role">Senior Data Scientist</h3>
+                    <p class="timeline-company">EY (Ernst & Young) · Noida, India</p>
+                    <p class="timeline-desc">
+                        Built a <strong>multimodal LLM compliance solution</strong> verifying image, video,
+                        audio, and text data in advertisements to ensure guideline adherence for computer
+                        hardware clients. Developed a <strong>chatbot with a fine-tuned open-source LLM</strong>
+                        answering queries about India's new legal framework — Bhartiya Nyaya Sanhita.
+                    </p>
+                    <div class="timeline-tags">
+                        <span>Multimodal LLM</span><span>Fine-Tuning</span><span>Compliance</span><span>Legal AI</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item reveal" style="--delay: .2s">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content" data-tilt>
+                    <span class="timeline-date">Dec 2021 — May 2024</span>
+                    <h3 class="timeline-role">Senior Applied Data Scientist</h3>
+                    <p class="timeline-company">Dunnhumby · Gurgaon, India</p>
+                    <p class="timeline-desc">
+                        Drove AI initiatives across retail and ecommerce. Built an <strong>NL-to-SQL chatbot</strong>
+                        with fine-tuned LLMs converting natural language to SQL and Python code — won the
+                        <strong>Hackrush Hackathon</strong> (Nov 2023). Developed a <strong>RAG-powered AI
+                        dashboard</strong> and coding-assistant bot using vector databases. Designed a
+                        <strong>recommendation engine</strong> for the UK's largest retailer that increased
+                        sales by <strong>315%</strong>. Built healthy food recommendation (XGBoost, Fasttext),
+                        media campaign evaluation, and customer family segmentation. Received the
+                        <strong>GMS Star Award</strong> (Dec 2022) for healthy product classification.
+                    </p>
+                    <div class="timeline-tags">
+                        <span>LLMs</span><span>NLP-to-SQL</span><span>RAG</span><span>RecSys</span><span>XGBoost</span><span>315% Sales Lift</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item reveal" style="--delay: .25s">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content" data-tilt>
+                    <span class="timeline-date">Dec 2019 — Dec 2021</span>
+                    <h3 class="timeline-role">Research Data Scientist · AI/ML R&D</h3>
+                    <p class="timeline-company">Infosys · Bangalore, India</p>
+                    <p class="timeline-desc">
+                        Developed <strong>synthetic image generation using Pix2Pix C-GAN</strong> for
+                        privacy-preserving dataset creation on the iEDPS platform. Built a <strong>chatbot
+                        with RASA</strong> for a British telecom's internal stakeholders, an automated
+                        <strong>cluster analysis and topic modelling dashboard</strong> for an American bank,
+                        and a <strong>real-time meat image classifier (CNN)</strong> for an American food
+                        processor. Also built automated form/receipt OCR (OpenCV, Tesseract) and image
+                        preprocessing pipelines. Received <strong>Award for Excellence</strong> (Rise Insta
+                        Awards, Jun 2021).
+                    </p>
+                    <div class="timeline-tags">
+                        <span>Pix2Pix C-GAN</span><span>RASA</span><span>CNN</span><span>OCR</span><span>Topic Modeling</span><span>Synthetic Data</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item reveal" style="--delay: .3s">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content" data-tilt>
+                    <span class="timeline-date">May 2019</span>
+                    <h3 class="timeline-role">B.Tech · Mechanical Engineering</h3>
+                    <p class="timeline-company">SRM Institute of Science and Technology · Chennai</p>
+                    <p class="timeline-desc">
+                        Built foundations in engineering and AI. Published research on 3D printing food in
+                        space (Mar 2018). Completed Kaizen Robotics program at IIT Madras (runner-up, Oct 2015),
+                        and won the Mathematics Talent Reward Program at ISI Kolkata (Jan 2014). Active in
+                        ASME, ISHRAE, and Aaruush (Event Coordinator).
+                    </p>
+                    <div class="timeline-tags">
+                        <span>Robotics</span><span>3D Printing</span><span>ASME</span><span>ISHRAE</span><span>ISI Kolkata</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="section-header reveal">
+            <span class="section-num">05</span>
+            <h2 class="section-title">Featured Work</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card reveal" data-tilt style="--delay: .05s">
+                <div class="project-glow"></div>
+                <div class="project-header">
+                    <span class="project-icon">🪞</span>
+                    <span class="project-type">Agentic AI · EXL</span>
+                </div>
+                <h3 class="project-title">AI Twins — Digital Avatars with LLMs</h3>
+                <p class="project-desc">
+                    Built an application to create AI Twins — digital avatars that replicate an individual's
+                    appearance, voice, and speech using Agentic AI, RAG, and lip-sync. Published in Lattice
+                    and <strong>presented at MLDS 2025</strong>. Won the <strong>Early Trailblazer Award</strong>
+                    at EXL for delivering this project for the EXL CEO within 3 months of joining.
+                </p>
+                <div class="project-tech">
+                    <span>Agentic AI</span><span>LLMs</span><span>RAG</span><span>Lip-Sync</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-metric">🏆 Early Trailblazer · MLDS 2025</span>
+                    <span class="project-link" data-cursor="hover">Read Paper →</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tilt style="--delay: .1s">
+                <div class="project-glow"></div>
+                <div class="project-header">
+                    <span class="project-icon">⚙️</span>
+                    <span class="project-type">Framework · EXL</span>
+                </div>
+                <h3 class="project-title">Agent Toolkit — Reusable Agent Framework</h3>
+                <p class="project-desc">
+                    Engineered a reusable agent-building framework adopted across all agentic AI initiatives
+                    at EXL. Standardizes how agents are built, configured, and deployed — accelerating
+                    time-to-production for new agentic use cases across teams.
+                </p>
+                <div class="project-tech">
+                    <span>Agentic AI</span><span>Framework</span><span>Python</span><span>Production</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-metric">Adopted org-wide</span>
+                    <span class="project-link" data-cursor="hover">Details →</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tilt style="--delay: .15s">
+                <div class="project-glow"></div>
+                <div class="project-header">
+                    <span class="project-icon">🛂</span>
+                    <span class="project-type">Production · EXL</span>
+                </div>
+                <h3 class="project-title">Agentic Claims-Processing System</h3>
+                <p class="project-desc">
+                    Developed and productionized an agentic claims-processing system for insurance that
+                    autonomously analyzes incidents, maintains memory across interactions, and drives
+                    end-to-end claims decisions. Powered by <strong>Claude Opus</strong>.
+                </p>
+                <div class="project-tech">
+                    <span>Claude Opus</span><span>Agentic AI</span><span>Memory</span><span>Insurance</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-metric">In Production</span>
+                    <span class="project-link" data-cursor="hover">Details →</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tilt style="--delay: .2s">
+                <div class="project-glow"></div>
+                <div class="project-header">
+                    <span class="project-icon">🔐</span>
+                    <span class="project-type">Privacy · EXL</span>
+                </div>
+                <h3 class="project-title">PII Deidentification Tool</h3>
+                <p class="project-desc">
+                    Built a PII deidentification tool leveraging LLMs with iterative feedback loops to mask
+                    and replace sensitive data — enabling safe use of real customer data in AI pipelines
+                    and model training without exposing personally identifiable information.
+                </p>
+                <div class="project-tech">
+                    <span>LLMs</span><span>PII Masking</span><span>Feedback Loops</span><span>Privacy</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-metric">Production</span>
+                    <span class="project-link" data-cursor="hover">Details →</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tilt style="--delay: .25s">
+                <div class="project-glow"></div>
+                <div class="project-header">
+                    <span class="project-icon">💬</span>
+                    <span class="project-type">GenAI · EXL</span>
+                </div>
+                <h3 class="project-title">GenAI Insurance Chatbot</h3>
+                <p class="project-desc">
+                    Deployed a GenAI chatbot enabling stakeholders to query insurance documents, retrieve
+                    policy details, and file claims through natural language. Built with <strong>OpenAI
+                    GPT-5</strong> and <strong>Mistral</strong> for enterprise-grade document understanding.
+                </p>
+                <div class="project-tech">
+                    <span>GPT-5</span><span>Mistral</span><span>RAG</span><span>Insurance</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-metric">In Production</span>
+                    <span class="project-link" data-cursor="hover">Details →</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tilt style="--delay: .3s">
+                <div class="project-glow"></div>
+                <div class="project-header">
+                    <span class="project-icon">👁️</span>
+                    <span class="project-type">Multimodal · EY</span>
+                </div>
+                <h3 class="project-title">Multimodal LLM Compliance Solution</h3>
+                <p class="project-desc">
+                    Built a multimodal LLM-based compliance solution to verify image, video, audio, and text
+                    data in advertisements — ensuring they follow guidelines and rules for computer hardware
+                    clients. Unified cross-modal verification in a single AI pipeline.
+                </p>
+                <div class="project-tech">
+                    <span>Multimodal LLM</span><span>Image</span><span>Video</span><span>Audio</span><span>Text</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-metric">EY · 2024</span>
+                    <span class="project-link" data-cursor="hover">Details →</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tilt style="--delay: .35s">
+                <div class="project-glow"></div>
+                <div class="project-header">
+                    <span class="project-icon">⚖️</span>
+                    <span class="project-type">Legal AI · EY</span>
+                </div>
+                <h3 class="project-title">Bhartiya Nyaya Sanhita Legal Chatbot</h3>
+                <p class="project-desc">
+                    Developed a chatbot with a fine-tuned open-source LLM to answer queries about India's new
+                    legal framework — the Bhartiya Nyaya Sanhita. Made complex legal knowledge accessible
+                    through natural-language Q&A.
+                </p>
+                <div class="project-tech">
+                    <span>Fine-Tuned LLM</span><span>Legal AI</span><span>Open Source</span><span>Q&A</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-metric">EY · 2024</span>
+                    <span class="project-link" data-cursor="hover">Details →</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tilt style="--delay: .4s">
+                <div class="project-glow"></div>
+                <div class="project-header">
+                    <span class="project-icon">🏆</span>
+                    <span class="project-type">Hackathon Winner · MLDS 2024</span>
+                </div>
+                <h3 class="project-title">NL-to-SQL Chatbot Dashboard</h3>
+                <p class="project-desc">
+                    Built a chatbot for business users using fine-tuned open-source LLMs to convert natural
+                    language to SQL and Python code, providing actionable data insights. Won the
+                    <strong>Hackrush Hackathon</strong> at Dunnhumby (Nov 2023). Published in Lattice and
+                    <strong>presented at MLDS 2024</strong>.
+                </p>
+                <div class="project-tech">
+                    <span>Fine-Tuned LLMs</span><span>NLP-to-SQL</span><span>Python Code</span><span>Dashboard</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-metric">🏆 Hackrush Winner · MLDS 2024</span>
+                    <span class="project-link" data-cursor="hover">Read Paper →</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tilt style="--delay: .45s">
+                <div class="project-glow"></div>
+                <div class="project-header">
+                    <span class="project-icon">📊</span>
+                    <span class="project-type">RAG · Dunnhumby</span>
+                </div>
+                <h3 class="project-title">RAG-Powered AI Coding Dashboard</h3>
+                <p class="project-desc">
+                    Developed a RAG-powered AI dashboard and a bot to assist data scientists with coding,
+                    error debugging, and internal solution queries using vector databases. Sped up internal
+                    data-science workflows with grounded, context-aware assistance.
+                </p>
+                <div class="project-tech">
+                    <span>RAG</span><span>Vector DB</span><span>Coding Assistant</span><span>Debugging</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-metric">Dunnhumby</span>
+                    <span class="project-link" data-cursor="hover">Details →</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tilt style="--delay: .5s">
+                <div class="project-glow"></div>
+                <div class="project-header">
+                    <span class="project-icon">📈</span>
+                    <span class="project-type">RecSys · Dunnhumby</span>
+                </div>
+                <h3 class="project-title">Recommendation Engine — 315% Sales Lift</h3>
+                <p class="project-desc">
+                    Designed and deployed a recommendation engine for new products for the UK's largest
+                    retailer — increased sales by <strong>315%</strong>. Combined healthy food
+                    recommendation (XGBoost, Fasttext), media campaign evaluation (Random Forest, K-means),
+                    and customer family segmentation (XGBoost) for leading Norwegian and UK clients.
+                </p>
+                <div class="project-tech">
+                    <span>XGBoost</span><span>Fasttext</span><span>Random Forest</span><span>K-Means</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-metric">🏆 315% Sales Lift</span>
+                    <span class="project-link" data-cursor="hover">Details →</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tilt style="--delay: .55s">
+                <div class="project-glow"></div>
+                <div class="project-header">
+                    <span class="project-icon">🛒</span>
+                    <span class="project-type">Personal Project</span>
+                </div>
+                <h3 class="project-title">Vibe Shopping App</h3>
+                <p class="project-desc">
+                    Built a vibe shopping app powered by diffusion models, LLMs, MCP Servers, and Clawdbot
+                    (Openclaw). Personal side project exploring agentic commerce — letting users shop
+                    through natural-language vibes with AI-generated product discovery.
+                </p>
+                <div class="project-tech">
+                    <span>Diffusion Models</span><span>LLMs</span><span>MCP Servers</span><span>Openclaw</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-metric">Personal Project</span>
+                    <span class="project-link" data-cursor="hover">Details →</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tilt style="--delay: .6s">
+                <div class="project-glow"></div>
+                <div class="project-header">
+                    <span class="project-icon">🖼️</span>
+                    <span class="project-type">Computer Vision · Infosys</span>
+                </div>
+                <h3 class="project-title">Synthetic Image Generation — Pix2Pix C-GAN</h3>
+                <p class="project-desc">
+                    Developed synthetic image generation using Pix2Pix C-GAN for privacy-preserving dataset
+                    creation on the iEDPS platform — creating training data to improve model performance
+                    without manual labeling. Published at Infosys (Jul 2021).
+                </p>
+                <div class="project-tech">
+                    <span>Pix2Pix C-GAN</span><span>Synthetic Data</span><span>Privacy</span><span>iEDPS</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-metric">Published · Jul 2021</span>
+                    <span class="project-link" data-cursor="hover">Read Paper →</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="section publications" id="publications">
+        <div class="section-header reveal">
+            <span class="section-num">06</span>
+            <h2 class="section-title">Publications</h2>
+        </div>
+        <div class="pub-list">
+            <div class="pub-item reveal" data-tilt style="--delay: .05s">
+                <div class="pub-date">Feb 2025</div>
+                <div class="pub-content">
+                    <h3 class="pub-title">Beyond the Mirror: AI Twins Using Large Language Models</h3>
+                    <p class="pub-venue">Lattice · Presented at MLDS 2025</p>
+                </div>
+                <span class="pub-type">LLM</span>
+            </div>
+            <div class="pub-item reveal" data-tilt style="--delay: .1s">
+                <div class="pub-date">Jan 2024</div>
+                <div class="pub-content">
+                    <h3 class="pub-title">Breaking the Language Barrier — Natural Language to SQL Using Large Language Models</h3>
+                    <p class="pub-venue">Lattice · Presented at MLDS 2024</p>
+                </div>
+                <span class="pub-type">NL-to-SQL</span>
+            </div>
+            <div class="pub-item reveal" data-tilt style="--delay: .15s">
+                <div class="pub-date">—</div>
+                <div class="pub-content">
+                    <h3 class="pub-title">Enhancing Large Language Models — Integrating Human Preferences and Conditional Reinforcement Learning</h3>
+                    <p class="pub-venue">Lattice</p>
+                </div>
+                <span class="pub-type">RLHF</span>
+            </div>
+            <div class="pub-item reveal" data-tilt style="--delay: .2s">
+                <div class="pub-date">Jul 2021</div>
+                <div class="pub-content">
+                    <h3 class="pub-title">Automated Cluster Analysis on Unstructured Data — iEDPS</h3>
+                    <p class="pub-venue">Infosys · Co-author: Gayathri Nadella</p>
+                </div>
+                <span class="pub-type">NLP</span>
+            </div>
+            <div class="pub-item reveal" data-tilt style="--delay: .25s">
+                <div class="pub-date">Jul 2021</div>
+                <div class="pub-content">
+                    <h3 class="pub-title">Computer Vision Applications through iEDPS's Synthetic Image Generation</h3>
+                    <p class="pub-venue">Infosys · Co-author: Gayathri Nadella</p>
+                </div>
+                <span class="pub-type">CV</span>
+            </div>
+            <div class="pub-item reveal" data-tilt style="--delay: .3s">
+                <div class="pub-date">May 2021</div>
+                <div class="pub-content">
+                    <h3 class="pub-title">Chatbot with Google DialogFlow</h3>
+                    <p class="pub-venue">Infosys CodeStore · Co-authors: Santosh Saste, Suman Kumar Reddy, Sanmathi Parvatikar</p>
+                </div>
+                <span class="pub-type">Chatbot</span>
+            </div>
+            <div class="pub-item reveal" data-tilt style="--delay: .35s">
+                <div class="pub-date">Mar 2018</div>
+                <div class="pub-content">
+                    <h3 class="pub-title">3D Printing Food in Space</h3>
+                    <p class="pub-venue">SRM University</p>
+                </div>
+                <span class="pub-type">Research</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Awards Section -->
+    <section class="section certifications" id="certifications">
+        <div class="section-header reveal">
+            <span class="section-num">07</span>
+            <h2 class="section-title">Certifications & Awards</h2>
+        </div>
+        <div class="cert-awards-grid">
+            <div class="cert-column reveal" style="--delay: .05s">
+                <h3 class="cert-column-title"><span class="cat-icon"> ✓</span> Certifications</h3>
+                <div class="cert-items">
+                    <div class="cert-item">
+                        <div class="cert-badge">AWS</div>
+                        <div>
+                            <span class="cert-name">AWS Certified AI Practitioner</span>
+                            <span class="cert-issuer">Amazon Web Services · Jan 2025 · Expires Jan 2028</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge">NV</div>
+                        <div>
+                            <span class="cert-name">NVIDIA-Certified Associate: Generative AI LLMs</span>
+                            <span class="cert-issuer">NVIDIA · Jan 2025 · Expires Jan 2027</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge">DB</div>
+                        <div>
+                            <span class="cert-name">Large Language Models — Application Through Production</span>
+                            <span class="cert-issuer">Databricks · Oct 2023</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge">AZ</div>
+                        <div>
+                            <span class="cert-name">Microsoft Certified: Azure Data Scientist Associate</span>
+                            <span class="cert-issuer">Microsoft · Aug 2021 · ID H915-5991</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge">AZ</div>
+                        <div>
+                            <span class="cert-name">Microsoft Certified: Azure AI Engineer Associate</span>
+                            <span class="cert-issuer">Microsoft · Aug 2021</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge">AZ</div>
+                        <div>
+                            <span class="cert-name">Microsoft Certified: Azure Data Fundamentals</span>
+                            <span class="cert-issuer">Microsoft · Aug 2021</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge">AZ</div>
+                        <div>
+                            <span class="cert-name">Microsoft Certified: Azure AI Fundamentals</span>
+                            <span class="cert-issuer">Microsoft · Jul 2021 · ID H910-3708</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge">DK</div>
+                        <div>
+                            <span class="cert-name">Docker for Data Scientists</span>
+                            <span class="cert-issuer">LinkedIn · Oct 2021</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge">IIT</div>
+                        <div>
+                            <span class="cert-name">Kaizen Robotics Program</span>
+                            <span class="cert-issuer">Lema Labs, IIT Madras · Oct 2015</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge">ISI</div>
+                        <div>
+                            <span class="cert-name">Mathematics Talent Reward Program (MTRP)</span>
+                            <span class="cert-issuer">ISI Kolkata · Feb 2014</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cert-column reveal" style="--delay: .15s">
+                <h3 class="cert-column-title"><span class="cat-icon">★</span> Awards & Honors</h3>
+                <div class="cert-items">
+                    <div class="cert-item">
+                        <div class="cert-badge award">1st</div>
+                        <div>
+                            <span class="cert-name">Early Trailblazer Award — AI Twins for EXL CEO</span>
+                            <span class="cert-issuer">EXL · Oct 2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge award">★</div>
+                        <div>
+                            <span class="cert-name">Emerging Analyst Award — Agentic AI Client Innovation</span>
+                            <span class="cert-issuer">EXL · 2025</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge award">🏆</div>
+                        <div>
+                            <span class="cert-name">Winner — Hackrush LLM Hackathon (NL-to-SQL Chatbot)</span>
+                            <span class="cert-issuer">Dunnhumby · Nov 2023</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge award">★</div>
+                        <div>
+                            <span class="cert-name">GMS Star Award (Quarterly) — Healthy Product Classification</span>
+                            <span class="cert-issuer">Dunnhumby · Dec 2022</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge award">★</div>
+                        <div>
+                            <span class="cert-name">Award for Excellence — Rise Insta Awards</span>
+                            <span class="cert-issuer">Infosys R&D · Jun 2021</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge award">2nd</div>
+                        <div>
+                            <span class="cert-name">Second Position — Quadcopter Workshop Competition</span>
+                            <span class="cert-issuer">Robosapiens · Oct 2016</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge award">2nd</div>
+                        <div>
+                            <span class="cert-name">Runner Up — Kaizen Robotics Competition</span>
+                            <span class="cert-issuer">Lema Labs, IIT Madras · Oct 2015</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge award">1st</div>
+                        <div>
+                            <span class="cert-name">Medal of Distinction — Mathematics Talent Reward Program</span>
+                            <span class="cert-issuer">ISI Kolkata · Jan 2014</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="section-header reveal">
+            <span class="section-num">08</span>
+            <h2 class="section-title">Let's Build Together</h2>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info reveal" style="--delay: .1s">
+                <h3 class="contact-heading">Have a project in mind?</h3>
+                <p class="contact-text">
+                    Whether you need to deploy AI at scale, build an intelligent product,
+                    or solve a complex ML challenge — I'd love to hear about it.
+                </p>
+                <div class="contact-channels">
+                    <a href="tel:+919804125414" class="contact-channel" data-cursor="hover">
+                        <span class="channel-icon">☎</span>
+                        <div>
+                            <span class="channel-label">Phone</span>
+                            <span class="channel-value">+91 98041 25414</span>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/suvojith" target="_blank" rel="noopener" class="contact-channel" data-cursor="hover">
+                        <span class="channel-icon">in</span>
+                        <div>
+                            <span class="channel-label">LinkedIn</span>
+                            <span class="channel-value">/in/suvojith · 12K followers</span>
+                        </div>
+                    </a>
+                    <a href="#" class="contact-channel" data-cursor="hover" onclick="copyEmail(); return false;">
+                        <span class="channel-icon">✉</span>
+                        <div>
+                            <span class="channel-label">Email</span>
+                            <span class="channel-value">suvojit.hore.1@gmail.com</span>
+                        </div>
+                    </a>
+                    <div class="contact-channel">
+                        <span class="channel-icon">📍</span>
+                        <div>
+                            <span class="channel-label">Location</span>
+                            <span class="channel-value">Bengaluru · Sydney · UAE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-langs">
+                    <h4 class="contact-langs-title">🌐 Languages</h4>
+                    <div class="lang-pills">
+                        <span class="lang-pill">Bengali <em>Native</em></span>
+                        <span class="lang-pill">English <em>Professional</em></span>
+                        <span class="lang-pill">Hindi <em>Professional</em></span>
+                        <span class="lang-pill">German <em>Elementary</em></span>
+                        <span class="lang-pill">Spanish <em>Elementary</em></span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-actions reveal" style="--delay: .2s">
+                <a href="Suvojit-Hore-Senior-AI-Engineer.pdf" download class="btn btn-primary btn-full" data-cursor="hover">
+                    <span class="btn-icon">⬇</span> Download Resume <span class="btn-arrow">→</span>
+                </a>
+                <a href="https://www.linkedin.com/in/suvojith" target="_blank" rel="noopener" class="btn btn-ghost btn-full" data-cursor="hover">
+                    <span class="btn-icon">in</span> Message on LinkedIn <span class="btn-arrow">→</span>
+                </a>
+                <button onclick="sendEmail()" class="btn btn-ghost btn-full" data-cursor="hover">
+                    <span class="btn-icon">✉</span> Send Email <span class="btn-arrow">→</span>
+                </button>
+                <div class="email-popup" id="emailPopup">
+                    <div class="email-popup-card">
+                        <div class="email-popup-icon">✉</div>
+                        <p class="email-popup-text">My email address is:</p>
+                        <p class="email-popup-mail">suvojit.hore.1@gmail.com</p>
+                        <p class="email-popup-hint">Opening your email client…</p>
+                        <div class="email-popup-bar"><div class="email-popup-fill" id="emailPopupFill"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <span class="footer-logo">[SH]</span>
+                <p>Suvojit Hore — Senior AI Engineer · Bengaluru · Sydney · UAE</p>
+            </div>
+            <div class="footer-right">
+                <p>Designed & built with precision <span class="footer-heart">◆</span></p>
+                <p class="footer-year">© <span id="year"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Back to Top -->
+    <button class="back-top" id="backTop" data-cursor="hover" aria-label="Back to top">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
