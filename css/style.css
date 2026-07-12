@@ -709,9 +709,14 @@ img { max-width: 100%; }
 .spotlight-feature-reverse .spotlight-feature-img { order: 2; }
 .spotlight-feature-reverse .spotlight-body { order: 1; }
 
+/* Taller variant for square images where a short crop cuts the face */
+.spotlight-feature-tall .spotlight-feature-img { min-height: 420px; }
+.spotlight-feature-tall .spotlight-feature-img img { object-position: 50% 18%; }
+
 @media (max-width: 768px) {
     .spotlight-feature { grid-template-columns: 1fr; }
     .spotlight-feature-img { min-height: 0; aspect-ratio: 16 / 9; position: relative; }
+    .spotlight-feature-tall .spotlight-feature-img { min-height: 0; aspect-ratio: 1 / 1; }
     .spotlight-feature-reverse .spotlight-feature-img { order: 1; }
     .spotlight-feature-reverse .spotlight-body { order: 2; }
 }
