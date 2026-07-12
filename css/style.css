@@ -621,6 +621,137 @@ img { max-width: 100%; }
 }
 
 /* ============================================
+   SPOTLIGHT — TALKS & FEATURES
+   ============================================ */
+.spotlight-intro {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    margin: -20px 0 32px;
+}
+
+.spotlight-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+@media (max-width: 1024px) {
+    .spotlight-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+    .spotlight-grid { grid-template-columns: 1fr; }
+}
+
+.spotlight-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 20px;
+    backdrop-filter: blur(10px);
+    transition: all var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.spotlight-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 150%;
+    height: 150%;
+    background: radial-gradient(circle, var(--accent-glow), transparent 50%);
+    opacity: 0;
+    transition: opacity var(--transition);
+    pointer-events: none;
+}
+
+.spotlight-card:hover::before { opacity: 0.3; }
+
+.spotlight-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-glow);
+}
+
+.spotlight-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.spotlight-icon {
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
+.spotlight-badge {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--accent-light);
+    background: rgba(108, 92, 231, 0.12);
+    border: 1px solid rgba(108, 92, 231, 0.35);
+    border-radius: 20px;
+    padding: 3px 10px;
+}
+
+.spotlight-title {
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: 8px;
+    letter-spacing: -0.3px;
+}
+
+.spotlight-desc {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    line-height: 1.55;
+    margin-bottom: 16px;
+    flex-grow: 1;
+}
+
+.spotlight-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+}
+
+.spotlight-event {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--text-faint);
+}
+
+.spotlight-cta {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--accent-2);
+    white-space: nowrap;
+    transition: color var(--transition);
+}
+
+.spotlight-card:hover .spotlight-cta {
+    color: var(--accent-light);
+}
+
+.spotlight-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+/* ============================================
    IMPACT METRICS
    ============================================ */
 .impact-grid {
